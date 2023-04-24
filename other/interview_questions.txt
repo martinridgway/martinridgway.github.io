@@ -1,0 +1,100 @@
+TECHNICAL
+
+
+1. Tell us about your experience dealing with user research and usability testing.
+
+First and foremost, user research is all about understanding your users. A good UX designer will help you design products that work well across a variety of use cases—from mobile to desktop, as well as a wide variety of audiences.
+
+A UX designer should be able to elaborate on how they think of, and engage user research. What ‘lenses’ do they use when conducting user research? These ‘lenses’ could be ethnographic studies, field studies and contextual observations, focus groups, surveys and diary studies.
+
+They should mention details of how they set goals for the research and came up with a research plan. How they approached the organizational aspect, the recruiting of representative users—what kind of research questions they asked and how they analyzed the results. While there is more than one approach to facilitating user research, the designer should have a clear description of the method, the sample size required to gain a meaningful result, and speak to the interpretation of the data.
+
+Look for a UX designer who understands how to measure appropriately by selecting the minimum number of subjects needed to gain a valid understanding of the research, and comprehends what they are testing and seeking to understand.
+
+For usability testing the designer should discuss the methodologies they used. Did they conduct structured one-on-one interviews with users while they tried specific tasks with product prototypes? Listen for how they’d define a successful test, i.e. what key revelations were gathered and how was the data distilled into practical, actionable insights? Did they use moderated or unmoderated usability testing? (Unmoderated testing examples may include eye tracking, click tracking heatmaps, online card sorting exercises, etc.)
+
+
+2. What is your approach to making websites and platforms accessible to all user groups, including users with visual, hearing, and motor disabilities?
+
+Accessibility is a huge topic for UX designers, especially as screens begin to shrink and we consume and engage in content wherever we go. Designing digital products able to be used anywhere is paramount to a product’s success; when our end user has specific requirements in terms of sensory constraints, the design should facilitate interaction and be even more empathetic.
+
+Take notice if the designer is aware of, and follows the World Wide Web Consortium’s ‘Web Content Accessibility Guidelines.’ Have they performed an accessibility analysis on a previous project?
+
+With a focus on accessibility, testing becomes especially important and should be comprehensive. An app or website should be simple enough to facilitate a clear end goal or user task, and innovative approaches should be used to ensure a user with a disability can actually interact with the product. Some examples could include using voiceover commands to navigate websites and apps for people with motor disabilities, adding captions to a video which benefits people who are deaf and hard-of-hearing, making content easier to read by screen readers for the blind—or designing an option to use large typography for users with vision impairment.
+
+
+3. When a stakeholder says: “I don’t like this design.” What do you do?
+
+In a situation like this, a great UX designer exhibits thoughtful restraint. They will not take critique personally, but use it as an opportunity to dig deeper and uncover the real reasons why a client may not like a design. Great UX designers are objective; they rely on tried and true principles, past learnings, white papers and studies, best practices, standards and design conventions that have been tested, studied and validated. Accordingly, they should be able to back up their designs based on the aforementioned.
+
+Typically, in these circumstances, a misalignment has occurred between what the client was looking for and what the designer was trying to achieve. A great designer would take a step back and ask smart questions to uncover the issues a client may have with the design. Is the client being subjective as in, “I don’t like that color?” The designer would inquire why, and make sure the client understands that design decisions are based on sound principles—color theory for example—and not subjective opinion.
+
+Also listen for examples of when the designer backed up design decisions based on analytics data and testing (staying objective), and how they presented facts and findings to make their case.
+
+Some client feedback may be for compelling business reasons. For example, the client may feel that an oversimplified solution misses valuable opportunities for revenue-generating ad placement. A good designer would listen patiently and incorporate the feedback into the next iteration, understanding that arriving at the optimal design is a balancing act between business needs, technical feasibility and the designer’s desire to create the best UX.
+
+
+4. What analytics tools and key performance indicators (KPIs) have you used to evaluate your designs?
+
+Great UX designers seek to create experiences that will intuitively work for a specific target audience. Garnering quantitative data on site usage or an application plays an important role in a UX designer’s arsenal of UX success evaluation tools. Whereas user research typically focuses on qualitative data, analytics focus on quantitative data, such as identifying what actions users take when they come to a page.
+
+There are many analytics tools and methods available that capture user behavior; e.g. eye tracking, click tracking heatmaps and ‘UI tagging’ that tracks specific elements with which users interact on a page. Don’t focus on the software tool—listen for the why, the methods they used and what measurements they took. What key performance indicators (KPIs) were they evaluating against? For example, how many users moved through the onboarding process quickly or clicked on that sign-up button—how many set up 1-click ordering?
+
+
+
+5. If tasked to perform a UX evaluation of a product, what would your process look like to accomplish this? Can you tell me about a project you did this for and what the outcome of the evaluation was?
+
+Working in a collaborative environment, UX designers must communicate effectively with many different stakeholders, and the best way to ensure they are ‘heard’ is to deliver a killer presentation. For example, presenting research findings or recommendations as a result of a UX evaluation on a product.
+
+Listen for how the designer prepared the presentation. What process, tools and UX principles did they utilize to clearly communicate their findings and support their recommendations? A great presentation not only illustrates the solution but also connects the audience to the process by which the designer came to that solution.
+
+If they carried out some tests and quantitative evaluations, what benchmarks and KPIs did they test against and how did they communicate those findings?
+
+
+
+
+
+
+
+COMPETENCE
+
+1. What are some of the biggest challenges you face as a UX designer?
+
+One attribute of a great designer is the ability to evaluate their work objectively. No matter what stage of their career, there will always be those challenges that every designer strives to overcome in a meaningful way.
+
+Listen for answers that not only describe the challenges they may face, but how they overcome them.
+
+They may have a challenge justifying their design process to certain stakeholders—it may seem too costly and take too long. How do they overcome these obstacles?
+
+For example—convincing a company they need more in depth user research before a product is designed, or incorporating proper usability testing during a product design lifecycle can be difficult. How do they advocate for the aforementioned in making their case?
+
+Another challenge may be conducting user research in innovative ways. This can prove to be especially difficult for designers who work remotely, because direct access to their end users is limited.
+
+Gathering, analyzing and translating both qualitative and quantitative user data into ‘actionable insights’ may pose another challenge. However, good designers have a method of focusing on the most impactful elements and teasing out the biggest return on investment.
+
+Listen for answers that include overcoming challenges of working with others with different agendas. A UX designer will always face challenges around collaborating with professionals from other disciplines, such as C-level executives, product managers, engineers and visual designers.
+
+* Can you tell me about a time you faced one of these challenges in previous projects and how you went about solving it?
+
+* What were the outcomes of this approach?
+
+
+2. Walk me through a design example where you set out to solve a business problem.
+
+Using an example project, a great UX designer would demonstrate the understanding that they’re not just designing a new interface, website or app, but also a way to solve a business problem. First, they would talk about the discovery/problem definition phase where they carried out comprehensive research to uncover insights into the source of the problem.
+
+Next, they would have researched users from the target demographic and identified common themes, unmet user needs and where the business may have fallen short overall. They would demonstrate their skill at evaluating the goals of the business, the use case scenarios and how to best align them in order to find a solution.
+
+Lastly, they would have reached into their UX toolkit and used prototypes (among other things) to explore potential solutions and validate ideas and hypotheses focused on obtaining significant business value from the solutions achieved by an optimal UX design.
+
+
+
+3. Sell me on the ROI of investing in UX design. How would it improve my bottom line?
+
+UX-driven product design isn’t just about creating a great user experience, it’s also a smart business move. A great UX designer makes the case for usability—for designing great user experiences that work for people, as well as contributing to the bottom line.
+
+They may illustrate why so many projects fail and have to be redone, and how that costs an enormous amount of money. Or outline why investing in UX is a no-brainer if a product is to succeed in the marketplace. Or mention hard data from statistical findings and use examples such as ‘68% of users give up because they think you don’t care about them’ and ‘89% of consumers purchased from a competitor following a poor user experience’.
+
+When talking about the return of investing in UX, they should also discuss success measures by including the calculation of cost savings in relationship to your overall return.
+
+A great UX designer would discuss how investing in UX improves performance, reduces errors, increases ease of use, attracts more users, increases adoption rates, elevates the brand, increases trust in the system and user satisfaction, reduces development costs, reduces redesign costs, decreases support costs and reduces training needed, etc. which all increase the ROI.
