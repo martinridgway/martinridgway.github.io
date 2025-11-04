@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Inline Notification – Collapsible</title>
+<style>
+  :root {
+    --notif-bg: #f4f4f4;
+    --notif-border: #8d8d8d;
+    --notif-text: #161616;
+    --notif-title: #161616;
+    --notif-link: #0f62fe; /* IBM Carbon interactive blue */
+    --notif-success: #24a148;
+    --notif-info: #0f62fe;
+    --notif-warning: #f1c21b;
+    --notif-error: #da1e28;
+  }
+
+  .inline-notification-collapsible {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 24px 1fr auto;
+    gap: 0.75rem;
+    align-items: start;
+    background: var(--notif-bg);
+    border: 1px solid var(--notif-border);
+    border-left: 4px solid var(--notif-info);
+    color: var(--notif-text);
+    padding: 0.75rem 1rem;
+    border-radius: 4px;
+    max-width: 64rem;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  }
+
+  .inline-notification-collapsible .notif-icon {
+    width: 24px;
+    height: 24px;
+    display: inline-grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #e8f0ff;
+    color: var(--notif-info);
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .inline-notification-collapsible .notif-content {
+    min-width: 0;
+  }
+
+  .inline-notification-collapsible .notif-title {
+    margin: 0;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--notif-title);
+  }
+
+  .inline-notification-collapsible .notif-body {
+    margin: 0.25rem 0 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .inline-notification-collapsible .notif-actions {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .notif-toggle {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: var(--notif-link);
+    cursor: pointer;
+    font: inherit;
+    text-decoration: none;
+  }
+  .notif-toggle:focus-visible {
+    outline: 2px solid var(--notif-link);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  /* Optional subtle animation for expanding text */
+  .notif-body {
+    transition: max-height 0.18s ease;
+  }
+</style>
+</head>
+<body>
+
+<div class="inline-notification-collapsible" role="status" aria-live="polite">
+  <div class="notif-icon" aria-hidden="true">i</div>
+
+  <div class="notif-content">
+    <h3 id="notif-title-1" class="notif-title">Information</h3>
+    <p id="notif-body-1"
+       class="notif-body"
+       data-max-chars="250"
+       aria-labelledby="notif-title-1">
+      This demonstration notification shows how long messages can be neatly truncated without breaking layout or overwhelming the page. Content authors often paste generous paragraphs, updates, or guidance that exceed the space available to the application. With this collapsible pattern, we present a clean preview first, then invite the reader to expand for details only if they wish to continue. It reduces clutter, preserves hierarchy, and keeps the interface quick to scan. Click the control to reveal the text, then collapse it when finished reading. This improves clarity, protects rhythm, and still respects intent, letting important information breathe while staying concise.
+    </p>
+  </div>
+
+  <div class="notif-actions">
+    <button type="button"
+            class="notif-toggle"
+            aria-controls="notif-body-1"
+            aria-expanded="false">
+      [more]
+    </button>
+  </div>
+</div>
+
+<script>
+  (function () {
+    const body = document.getElementById('notif-body-1');
+    const toggle = document.querySelector('.notif-toggle');
+    const maxChars = parseInt(body.getAttribute('data-max-chars') || '250', 10);
+
+    // Store the full text exactly as authored
+    const fullText = body.textContent.trim();
+    let isTruncated = false;
+
+    // Create a truncated version without breaking words mid-word
+    function truncateToChars(text, limit) {
+      if (text.length <= limit) return text;
+      const slice = text.slice(0, limit);
+      // Prefer trimming at the last space to avoid chopping a word
+      const cut = slice.lastIndexOf(' ') > 0 ? slice.slice(0, slice.lastIndexOf(' ')) : slice;
+      return cut.trimEnd() + '…';
+    }
+
+    // Initial collapse if needed
+    const truncatedText = truncateToChars(fullText, maxChars);
+    if (truncatedText !== fullText) {
+      body.textContent = truncatedText;
+      toggle.hidden = false;
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.textContent = '[more]';
+      isTruncated = true;
+    } else {
+      // No need for a toggle
+      toggle.hidden = true;
+      toggle.setAttribute('aria-expanded', 'true');
+      isTruncated = false;
+    }
+
+    // Toggle behaviour
+    toggle.addEventListener('click', function () {
+      const expanded = toggle.getAttribute('aria-expanded') === 'true';
+      if (expanded) {
+        // Collapse
+        body.textContent = truncatedText;
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.textContent = '[more]';
+      } else {
+        // Expand
+        body.textContent = fullText;
+        toggle.setAttribute('aria-expanded', 'true');
+        toggle.textContent = '[less]';
+      }
+    });
+  })();
+</script>
+
+</body>
+</html>
